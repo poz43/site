@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/segoe-ui-light.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/segoe-ui-light.woff") format("woff");
+  }
+  
+  @font-face {
+      font-family: "Segoe UI";
+      font-weight: bold;
+      font-style: normal;
+      font-display: swap;
+      src: url("../fonts/segoe-ui-bold.woff2") format("woff2");
+    }
+  
+    @font-face {
+      font-family: "Segoe UI";
+      font-weight: bold;
+      font-style: normal;
+      font-display: swap;
+      src: url("../fonts/segoe-ui-bold.woff") format("woff");
+    }
+
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.5;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container-max {
+  max-width: 1920px;
+  min-width: 320px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
